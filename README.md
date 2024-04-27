@@ -8,16 +8,16 @@ Crie e guarde uma nota para seu uso pessoal!
 
 ## Histórias de Usuário
 
-- [] Usuário pode criar notas;
-- [] Usuário pode editar notas;
-- [] Usuário pode deletar notas;
-- [] Quando fechar o browser as notas vão ser guardadas e quando o usuário retornar, os dados serão recuperados.
+- [ ] Usuário pode criar notas;
+- [ ] Usuário pode editar notas;
+- [ ] Usuário pode deletar notas;
+- [ ] Quando fechar o browser as notas vão ser guardadas e quando o usuário retornar, os dados serão recuperados.
 
 ## Itens bônus
 
-- [] Usuário pode criar e editar a nota no formato Markdown. Quando salva vai converter Markdown para HTML;
-- [] Usuário pode ver quando a nota foi criada.
+- [ ] Usuário pode criar e editar a nota no formato Markdown. Quando salva vai converter Markdown para HTML;
+- [ ] Usuário pode ver quando a nota foi criada.
 
 ## Adicional a fazer:
-- [] Fazer em Python;
-- [] Fazer em Java;
+- [ ] Fazer em Python;
+- [ ] Fazer em Java;
