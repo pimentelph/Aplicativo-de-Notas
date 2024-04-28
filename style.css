@@ -1,0 +1,48 @@
+body{
+    background-color: #002e34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    border-radius: 25px;
+    font-family:"Kanit", sans-serif;
+}
+
+#divTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Titulo{
+    font-family:"Kanit", sans-serif;
+    color: aliceblue;
+}
+
+#criarNota{
+    background-color:#00c16c;
+    color: aliceblue;
+}
+
+#criarNota:hover{
+    background-color: #00a25c;
+}
+
+#divPaiNotas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    width: 900px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.divNotas{
+    margin: 20px;
+    width: 850px;
+    height: 400px;
+    background-color: rgb(222, 229, 236)
+}
