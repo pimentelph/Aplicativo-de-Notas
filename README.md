@@ -10,7 +10,7 @@ Crie e guarde uma nota para seu uso pessoal!
 
 - [ ] Usuário pode criar notas;
 - [ ] Usuário pode editar notas;
-- [ ] Usuário pode deletar notas;
+- [x] Usuário pode deletar notas;
 - [ ] Quando fechar o browser as notas vão ser guardadas e quando o usuário retornar, os dados serão recuperados.
 
 ## Itens bônus
