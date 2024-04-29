@@ -5,11 +5,6 @@ body{
     align-items: center;
 }
 
-.botao{
-    border-radius: 25px;
-    font-family:"Kanit", sans-serif;
-}
-
 #divTitulo{
     display: flex;
     flex-direction: column;
@@ -32,7 +27,7 @@ body{
 
 #divPaiNotas{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     margin: 30px;
     width: 900px;
@@ -43,6 +38,22 @@ body{
 .divNotas{
     margin: 20px;
     width: 850px;
-    height: 400px;
-    background-color: rgb(222, 229, 236)
+    height: auto;
+    background-color: rgb(222, 229, 236);
+    flex-direction: column;
+
+}
+
+.botao{
+    margin: 10px;
+    border-radius: 25px;
+    font-family:"Kanit", sans-serif;
+}
+
+.texto{
+    width: 99%;
+    height: 90%;
+    border: 100%;
+    resize: vertical;
+    background-color: rgb(222, 229, 236);
 }
