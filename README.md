@@ -16,7 +16,7 @@ Crie e guarde uma nota para seu uso pessoal!
 ## Itens bônus
 
 - [ ] Usuário pode criar e editar a nota no formato Markdown. Quando salva vai converter Markdown para HTML;
-- [ ] Usuário pode ver quando a nota foi criada.
+- [x] Usuário pode ver quando a nota foi criada.
 
 ## Adicional a fazer:
 - [ ] Fazer em Python;
