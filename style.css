@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family:"Kanit", sans-serif;
 }
 
 #divTitulo{
@@ -12,7 +13,6 @@ body{
 }
 
 #Titulo{
-    font-family:"Kanit", sans-serif;
     color: aliceblue;
 }
 
@@ -44,10 +44,16 @@ body{
 
 }
 
+.divCabecalho{
+    width: 750px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
 .botao{
     margin: 10px;
     border-radius: 25px;
-    font-family:"Kanit", sans-serif;
 }
 
 .texto{

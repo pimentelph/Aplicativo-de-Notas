@@ -1,8 +1,10 @@
 function criarNotas(){
     var divPai = document.getElementById('divPaiNotas');
     var divFilha = document.createElement('div'); //Cria a div das notas
+    var divCabecalho = document.createElement('div');
     
     divFilha.className = 'divNotas'; //Atribui a classe que eu criei no CSS
+    divCabecalho.className = 'divCabecalho'; //Atribui a classe que eu criei no CSS
 
     var botaoExcluir = document.createElement('button'); //Crio o botão para excluir
     botaoExcluir.innerText = 'Excluir'; //Coloca um texto dentro do botão
@@ -27,7 +29,8 @@ function criarNotas(){
         if (texto.readOnly){
             texto.readOnly = false;
             botaoEditar.innerText = 'Salvar';
-            texto.placeholder = "Pode digitar!"
+            texto.placeholder = "Pode digitar!";
+            localStorage.setItem("notas", texto.value);
         } else {
             texto.readOnly = true;
             botaoEditar.innerText = 'Editar texto';
@@ -36,11 +39,23 @@ function criarNotas(){
         }
     }
 
+    var data = new Date();
+    var dia = data.getDate();
+    var mes = data.getMonth() + 1;
+    var ano = data.getFullYear();
+    var textoData = document.createElement('p');
+    textoData.textContent = "Data de criação: " + dia + "/" + mes + "/" + ano;
     
-    divFilha.appendChild(botaoEditar); //Adiciona o botão na div filha
-    divFilha.appendChild(botaoExcluir); //Adiciona o botão na div filha
+
+
+    
+    divCabecalho.appendChild(botaoEditar); //Adiciona o botão na div filha
+    divCabecalho.appendChild(botaoExcluir); //Adiciona o botão na div filha
+    divCabecalho.appendChild(textoData);
+    divFilha.appendChild(divCabecalho); //Adiciona a caixa de texto na div filha
     divFilha.appendChild(texto); //Adiciona a caixa de texto na div filha
     divPai.appendChild(divFilha); //Adiciona a div filha na div pai
+
 }
 
 document.getElementById('criarNota').addEventListener("click", criarNotas);
