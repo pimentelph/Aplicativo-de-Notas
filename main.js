@@ -43,8 +43,10 @@ function criarNotas(){
     var dia = data.getDate();
     var mes = data.getMonth() + 1;
     var ano = data.getFullYear();
+    var hora = data.getHours();
+    var minuto = data.getMinutes();
     var textoData = document.createElement('p');
-    textoData.textContent = "Data de criação: " + dia + "/" + mes + "/" + ano;
+    textoData.textContent = "Data de criação: " + dia + "/" + mes + "/" + ano + " às " + hora + ":" + minuto;
     
 
 
