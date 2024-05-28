@@ -18,6 +18,6 @@ Crie e guarde uma nota para seu uso pessoal!
 - [ ] Usuário pode criar e editar a nota no formato Markdown. Quando salva vai converter Markdown para HTML;
 - [x] Usuário pode ver quando a nota foi criada.
 
-## Adicional a fazer:
-- [ ] Fazer em Python;
-- [ ] Fazer em Java;
+## Posso fazer em:
+- [ ] Python;
+- [ ] Java;
