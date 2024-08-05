@@ -1,3 +1,5 @@
+import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+
 // criarElemento = cria um novo elemento HTML, aplicando uma classe CSS e estilos inline
 // tag = tag do elemento HTML a ser criado, como "div", "button" e etc
 // classe = classe CSS a ser aplicada ao elemento, podemos colocar null ou undefined
