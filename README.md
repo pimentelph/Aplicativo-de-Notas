@@ -2,9 +2,6 @@
 
 Ideia pega [daqui](https://github.com/florinpop17/app-ideas).
 
-## Link para teste no site CodePen
-[Clique aqui!](https://codepen.io/Pedro-Henrique-Pimentel-da-Silva/pen/KKjqpVz)
-
 ## Descrição
 
 Crie e guarde uma nota para seu uso pessoal!
