@@ -1,10 +1,6 @@
 import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
 
-// criarElemento = cria um novo elemento HTML, aplicando uma classe CSS e estilos inline
-// tag = tag do elemento HTML a ser criado, como "div", "button" e etc
-// classe = classe CSS a ser aplicada ao elemento, podemos colocar null ou undefined
-// estilos = um objeto contendo pares de chave-valor para estilos CSS
-// retorna o elemento HTML criado
+// Função para criar um novo elemento HTML
 function criarElemento(tag, classe, estilos) {
     var elemento = document.createElement(tag);
     if (classe) elemento.className = classe;
@@ -16,12 +12,7 @@ function criarElemento(tag, classe, estilos) {
     return elemento;
 }
 
-// criarBotao = cria um botão HTML com texto, uma classe HTML, estilos inline e um manipulador de eventos ao clicar no botão
-// texto = texto que vai estar no botão
-// classe = classe CSS a ser aplicada no botão
-// estilos = objeto contendo pares de chave-valor para estilos CSS
-// eventoClique = função que será executada quando o botão for clicado
-// retorna o botão HTML criado
+// Função para criar um botão HTML
 function criarBotao(texto, classe, estilos, eventoClique) {
     var botao = criarElemento('button', classe, estilos);
     botao.innerText = texto;
@@ -29,7 +20,7 @@ function criarBotao(texto, classe, estilos, eventoClique) {
     return botao;
 }
 
-// criarDivNota = cria a estrutura comopleta de uma nota, incluindo a área de texto, os botões de editar e excluir e a data de criação
+// Função para criar a estrutura completa de uma nota
 function criarDivNota() {
     var divFilha = criarElemento('div', 'divNotas');
     var divCabecalho = criarElemento('div', 'divCabecalho');
@@ -58,12 +49,14 @@ function criarDivNota() {
         { backgroundColor: "blue", color: "aliceblue" }, 
         function() {
             if (texto.readOnly) {
+                // Trocar para modo de edição
                 texto.readOnly = false;
                 textoMark.style.display = 'none';
                 texto.style.display = 'block';
                 botaoEditar.innerText = 'Salvar';
                 texto.placeholder = "Pode digitar!";
             } else {
+                // Trocar para modo de visualização
                 texto.readOnly = true;
                 texto.style.display = 'none';
                 textoMark.style.display = 'block';
@@ -74,7 +67,7 @@ function criarDivNota() {
     );
 
     var data = new Date();
-    var textoData = document.createElement('p');
+    var textoData = criarElemento('p', null, null);
     textoData.textContent = `Data de criação: ${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()} às ${data.getHours()}:${data.getMinutes()}`;
 
     divCabecalho.appendChild(botaoEditar);
@@ -87,7 +80,7 @@ function criarDivNota() {
     return divFilha;
 }
 
-// criarNotas = Cria uma nova nota e adiciona à 'divPaiNotas'
+// Função para criar uma nova nota e adicionar à 'divPaiNotas'
 function criarNotas() {
     var divPai = document.getElementById('divPaiNotas');
     var divFilha = criarDivNota();
