@@ -32,10 +32,13 @@ function criarDivNota() {
     var divFilha = criarElemento('div', 'divNotas');
     var divCabecalho = criarElemento('div', 'divCabecalho');
     var texto = criarElemento('textarea', 'texto');
+    var textoMark = criarElemento('p', 'textoMark');
 
+    textoMark.style.display = 'none';
     texto.readOnly = false;
     texto.placeholder = "Pode digitar!";
 
+    // Função para excluir a nota
     var botaoExcluir = criarBotao(
         'Excluir', 
         'botao', 
@@ -46,6 +49,7 @@ function criarDivNota() {
         }
     );
 
+    // Função para editar/salvar a nota
     var botaoEditar = criarBotao(
         'Salvar', 
         'botao', 
@@ -53,26 +57,30 @@ function criarDivNota() {
         function() {
             if (texto.readOnly) {
                 texto.readOnly = false;
+                textoMark.style.display = 'none';
+                texto.style.display = 'block';
                 botaoEditar.innerText = 'Salvar';
                 texto.placeholder = "Pode digitar!";
             } else {
                 texto.readOnly = true;
+                texto.style.display = 'none';
+                textoMark.style.display = 'block';
+                textoMark.innerHTML = marked.parse(texto.value);
                 botaoEditar.innerText = 'Editar texto';
-                texto.placeholder = "";
-                texto.style.resize = "none";
             }
         }
     );
 
     var data = new Date();
     var textoData = document.createElement('p');
-    textoData.textContent = `Data de criação: ${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()} às ${data.getHours()}:${data.getMinutes()}`; //Template Literals
+    textoData.textContent = `Data de criação: ${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()} às ${data.getHours()}:${data.getMinutes()}`;
 
     divCabecalho.appendChild(botaoEditar);
     divCabecalho.appendChild(botaoExcluir);
     divCabecalho.appendChild(textoData);
     divFilha.appendChild(divCabecalho);
     divFilha.appendChild(texto);
+    divFilha.appendChild(textoMark);
 
     return divFilha;
 }
