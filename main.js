@@ -97,7 +97,7 @@ function salvarNotas() {
     var divPai = document.getElementById('divPaiNotas');
     var divsNotas = divPai.getElementsByClassName('divNotas');
     for (var divNota of divsNotas) {
-        var texto = divNota.querySelector('textarea').value;
+        var texto = divNota.querySelector('.textoMark').value;
         var dataTexto = divNota.querySelector('p').textContent;
         notas.push({ conteudo: texto, data: dataTexto });
     }
