@@ -1,5 +1,5 @@
 # Aplicativo de Notas
-**Se deseja ver esse projeto em outras linguagens, olhe para as outras branchs do projeto**
+**Se deseja ver esse projeto em outras linguagens, olhe para as outras branchs do projeto!**
 
 Ideia pega [daqui](https://github.com/florinpop17/app-ideas).
 
