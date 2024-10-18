@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\blackBackGround.png" />
+    <None Remove="images\whiteBackGround.png" />
+    <None Remove="View\blackBackGround.png" />
+    <None Remove="View\whiteBackGround.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\blackBackGround.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\whiteBackGround.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Control\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\blackBackGround.png" />
+    <Resource Include="View\whiteBackGround.png" />
+  </ItemGroup>
+
+</Project>

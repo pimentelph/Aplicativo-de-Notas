@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Definir um SolidColorBrush para a cor do texto -->
+    <SolidColorBrush x:Key="ForegroundColor" Color="Black"/>
+
+    <!-- Definir um ImageBrush para o Background -->
+    <ImageBrush x:Key="BackgroundImage" ImageSource="pack://application:,,,/images/whiteBackGround.png"/>
+
+    <!-- Definir os estilos baseados nos recursos -->
+    <Style TargetType="Window">
+        <Setter Property="Background" Value="{DynamicResource BackgroundImage}"/>
+        <Setter Property="Foreground" Value="{DynamicResource ForegroundColor}"/>
+    </Style>
+
+    <!-- Estilo para Labels -->
+    <Style TargetType="Label">
+        <Setter Property="Foreground" Value="{DynamicResource ForegroundColor}"/>
+    </Style>
+
+</ResourceDictionary>
