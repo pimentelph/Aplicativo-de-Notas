@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|c:\\users\\ph024\\desktop\\app notas\\appnotas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|c:\\users\\ph024\\desktop\\app notas\\appnotas\\view\\temaclaro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|solutionrelative:view\\temaclaro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|c:\\users\\ph024\\desktop\\app notas\\appnotas\\view\\temaescuro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|solutionrelative:view\\temaescuro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ph024\\AppData\\Local\\Temp\\.vsdbgsrc\\9425df4d2a6478e3bd2c4626ab8b4216d18f87be085f4d2fba7224cc70c4f19a\\DependencyObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|c:\\users\\ph024\\desktop\\app notas\\appnotas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|c:\\users\\ph024\\desktop\\app notas\\appnotas\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B49EC284-5FD2-41B4-82FF-898A72666771}|AppNotas.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 220,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyObject.cs",
+              "DocumentMoniker": "C:\\Users\\ph024\\AppData\\Local\\Temp\\.vsdbgsrc\\9425df4d2a6478e3bd2c4626ab8b4216d18f87be085f4d2fba7224cc70c4f19a\\DependencyObject.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\9425df4d2a6478e3bd2c4626ab8b4216d18f87be085f4d2fba7224cc70c4f19a\\DependencyObject.cs",
+              "ToolTip": "C:\\Users\\ph024\\AppData\\Local\\Temp\\.vsdbgsrc\\9425df4d2a6478e3bd2c4626ab8b4216d18f87be085f4d2fba7224cc70c4f19a\\DependencyObject.cs [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\9425df4d2a6478e3bd2c4626ab8b4216d18f87be085f4d2fba7224cc70c4f19a\\DependencyObject.cs [Somente Leitura]",
+              "ViewState": "AQIAAB0CAAAAAAAAAAAMwDACAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:32:44.762Z",
+              "EditorCaption": " [Somente Leitura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TemaEscuro.xaml",
+              "DocumentMoniker": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\View\\TemaEscuro.xaml",
+              "RelativeDocumentMoniker": "View\\TemaEscuro.xaml",
+              "ToolTip": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\View\\TemaEscuro.xaml",
+              "RelativeToolTip": "View\\TemaEscuro.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T13:32:20.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TemaClaro.xaml",
+              "DocumentMoniker": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\View\\TemaClaro.xaml",
+              "RelativeDocumentMoniker": "View\\TemaClaro.xaml",
+              "ToolTip": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\View\\TemaClaro.xaml",
+              "RelativeToolTip": "View\\TemaClaro.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T13:31:49.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T13:19:41.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T12:59:02.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ph024\\Desktop\\App Notas\\AppNotas\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "View\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:56:37.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
